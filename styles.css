@@ -1,0 +1,45 @@
+.gloria-hallelujah-regular{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.afacad-flux{
+  font-family: "Afacad Flux", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.START-CONTAINER img{
+  border: none;
+  filter: blur(3px);
+}
+
+.START-CONTAINER{
+  position: relative;
+}
+
+.START-BTNS{
+  position: absolute;
+  top: 240px;
+  left: 115px;
+  animation: FADEIN 2.5s;
+}
+
+@keyframes FADEIN {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#BTN-CONT1 button{
+  font-family: "Afacad Flux", serif;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: none;
+  color: darkred;
+  background-color: black;
+  border: none;
+}
